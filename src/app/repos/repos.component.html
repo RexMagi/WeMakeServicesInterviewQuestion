@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{userName}}</mat-card-title>
+    <mat-card-subtitle>{{name}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="avatarUrl">
+  <mat-card-content>
+    <ul>
+      <li *ngFor="let repo of repos">
+        <a mat-button [href]="repo.html_url"> {{repo.name}}</a>
+      </li>
+    </ul>
+  </mat-card-content>
+</mat-card>
