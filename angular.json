@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "WeMakeServicesInterviewQuestions": {
+    "WeMakeServicesInterviewQuestion": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/WeMakeServicesInterviewQuestions",
+            "outputPath": "dist/WeMakeServicesInterviewQuestion",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "WeMakeServicesInterviewQuestions:build"
+            "browserTarget": "WeMakeServicesInterviewQuestion:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "WeMakeServicesInterviewQuestions:build:production"
+              "browserTarget": "WeMakeServicesInterviewQuestion:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "WeMakeServicesInterviewQuestions:build"
+            "browserTarget": "WeMakeServicesInterviewQuestion:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "WeMakeServicesInterviewQuestions-e2e": {
+    "WeMakeServicesInterviewQuestion-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "WeMakeServicesInterviewQuestions:serve"
+            "devServerTarget": "WeMakeServicesInterviewQuestion:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "WeMakeServicesInterviewQuestions:serve:production"
+              "devServerTarget": "WeMakeServicesInterviewQuestion:serve:production"
             }
           }
         },
@@ -136,5 +136,5 @@
       }
     }
   },
-  "defaultProject": "WeMakeServicesInterviewQuestions"
+  "defaultProject": "WeMakeServicesInterviewQuestion"
 }
