@@ -1,14 +1,19 @@
 <mat-sidenav-container class="container">
   <mat-sidenav-content class="content-container">
     <nav>
-      <mat-toolbar color="primary">My App</mat-toolbar>
+      <mat-toolbar color="primary">
+        <a mat-icon-button routerLink="/home">
+          <mat-icon>home</mat-icon>
+        </a>
+        My App
+      </mat-toolbar>
     </nav>
     <div class="content-wrap">
       <router-outlet></router-outlet>
     </div>
     <footer>
       2019 | Created by <a mat-button href="https://github.com/RexMagi">Trae Hurley</a>, source code: <a mat-button
-        href="https://github.com/RexMagi/WeMakeServicesInterviewQuestions">https://github.com/RexMagi/WeMakeServicesInterviewQuestions</a>
+        href="https://github.com/RexMagi/WeMakeServicesInterviewQuestion">https://github.com/RexMagi/WeMakeServicesInterviewQuestion</a>
     </footer>
   </mat-sidenav-content>
 </mat-sidenav-container>

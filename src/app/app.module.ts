@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { environment } from 'src/environments/environment';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     MatSidenavModule,
     MatToolbarModule,
+    MatIconModule,
     MatCardModule,
     HttpClientModule,
     MatButtonModule,
